@@ -1,0 +1,198 @@
+@import url('https://fonts.cdnfonts.com/css/sporting-grotesque');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #ffffff;
+    width: 375px;
+    height: 94px;
+}
+
+header nav {
+    display: none;
+}
+
+/* Aqui vai configurar o container do conteudo dentro do header, ajustado a largura e a
+altura entre header e o conteudo*/
+.container-principal {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 162px;
+    padding: 24px 28px 24px 28px;
+    height: 94px;
+}
+
+.barrinha {
+    width: 18px;
+    height: 16px;
+}
+
+.section1 {
+    background-image: url(/imagens/sombreamento\ section1.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.container-texto {
+    margin-top: 60px;
+    width: 327px;
+    height: 78px;
+    margin-left: 24px;
+}
+
+.container-texto h1 {
+    display: inline;
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: left;
+}
+
+.container-texto img {
+    padding-left: 20px;
+    width: 49px;
+    height: 29px;
+    display: inline;
+
+}
+
+#texto-roxo {
+    color: #8382EB;
+}
+
+#texto1 {
+    color: #9A9590;
+    margin-top: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 24px;
+}
+
+.buttons {
+    display: flex;
+    gap: 22px;
+    margin-left: 24px;
+    margin-top: 40px;
+}
+
+.button1 {
+    width: 176px;
+    height: 40px;
+    background-color: #264373;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+}
+
+.button1 p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    display: inline;
+    padding-left: 17px;
+}
+
+.button1 img {
+    padding-left: 48px;
+}
+
+.button2 {
+    width: 125px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.button2 p {
+    color: #264373;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    display: inline;
+    padding-left: 8.2px;
+}
+
+.button2 img {
+    padding-left: 12px;
+}
+
+.logos-marcas {
+    color: #262524;
+    width: 310px;
+    height: 75px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 32px;
+}
+
+.logos-marcas img {
+    margin-top: 8px;
+    width: 100%;
+    height: 49px;
+}
+
+
+#homem-malhando {
+    margin-top: 60px;
+    width: 342px;
+    height: 340px;
+    margin-left: 16.5px;
+}
+
+.caixa-texto {
+    width: 327px;
+    height: 222px;
+    margin-top: 120px;
+    margin-left: 24px;
+}
+
+.section2 h1 {
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: left;
+}
+
+.section2 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.packages2 {
+    background-color: #6462F0;
+    border-radius: 30px;
+    width: 326px;
+    height: 412px;
+}
+
+.pack-card {
+    width: auto;
+    height: 92px;
+    display: flex;
+}
+
+.pack-card p {
+    display: inline;
+}
