@@ -180,19 +180,51 @@ altura entre header e o conteudo*/
     margin-top: 12px;
 }
 
-.packages2 {
+.section3 {
     background-color: #6462F0;
     border-radius: 30px;
     width: 326px;
     height: 412px;
+    margin-top: 60px;
+    margin-left: 25px;
 }
 
-.pack-card {
-    width: auto;
+.pack-card1 {
+    padding-top: 60px;
+    padding-left: 28px;
+    margin-bottom: 40px;
     height: 92px;
+    width: 297px;
     display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
-.pack-card p {
+.texto-section3 {
+    width: auto;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    height: 92px;
+}
+
+.texto-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.texto-regular p {
     display: inline;
 }
+
+.texto-regular img {
+    padding-left: 16px;
+}
+
