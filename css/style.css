@@ -1,7 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/sporting-grotesque');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+:root {
+    --primary-color: #9A9590;
+    --second-color: #262524;
+}
 * {
     margin: 0;
     padding: 0;
@@ -38,6 +41,7 @@ altura entre header e o conteudo*/
     height: 16px;
 }
 
+/*Codigo da section 1*/
 .section1 {
     background-image: url(/imagens/sombreamento\ section1.png);
     display: flex;
@@ -52,11 +56,13 @@ altura entre header e o conteudo*/
 }
 
 .container-texto h1 {
+    color: var(--second-color);
     display: inline;
     font-family: 'Sporting Grotesque', sans-serif;
     font-weight: 600;
     font-size: 28px;
     text-align: left;
+    line-height: 140%;
 }
 
 .container-texto img {
@@ -72,13 +78,15 @@ altura entre header e o conteudo*/
 }
 
 #texto1 {
-    color: #9A9590;
+    color: var(--second-color);
     margin-top: 1.6rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
     margin-left: 24px;
+    opacity: 60%;
+    line-height: 180%;
 }
 
 .buttons {
@@ -88,6 +96,7 @@ altura entre header e o conteudo*/
     margin-top: 40px;
 }
 
+/*Button padronizado para section 1, 4 e 5 */
 .button1 {
     width: 176px;
     height: 40px;
@@ -118,7 +127,7 @@ altura entre header e o conteudo*/
     border-radius: 9px;
     display: flex;
     align-items: center;
-    
+
 }
 
 .button2 p {
@@ -155,9 +164,10 @@ altura entre header e o conteudo*/
     margin-top: 60px;
     width: 342px;
     height: 340px;
-    margin-left: 16.5px;
+    margin-left: 16.52px;
 }
 
+/*codigo da section 2*/
 .caixa-texto {
     width: 327px;
     height: 222px;
@@ -165,23 +175,28 @@ altura entre header e o conteudo*/
     margin-left: 24px;
 }
 
-.section2 h1 {
+.caixa-texto h1 {
+    color: var(--second-color);
     font-family: 'Sporting Grotesque', sans-serif;
     font-weight: 600;
     font-size: 28px;
     text-align: left;
+    line-height: 140%;
 }
 
-.section2 p {
+.caixa-texto p {
+    color: var(--second-color);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
     margin-top: 12px;
+    opacity: 60%;
 }
 
+/*codigo da section 3*/
 .section3 {
-    background-color: #6462F0;
+    background: linear-gradient(100deg, #6462F0, #9190E9);
     border-radius: 30px;
     width: 326px;
     height: 412px;
@@ -228,3 +243,48 @@ altura entre header e o conteudo*/
     padding-left: 16px;
 }
 
+/*codigo da section4 e 5 */
+.caixa-texto1 {
+    margin-top: 120px;
+    margin-left: 24px;
+}
+
+.caixa-texto1 h1 {
+    color: var(--second-color);
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: left;
+    line-height: 140%;
+}
+
+.caixa-texto1 p {
+    color: var(--second-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 16px;
+    opacity: 60%;
+}
+
+/* margins do button padronizados na section 4 e 5 */
+.buttons1 {
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+#homem-academia {
+    margin-left: 22px;
+    margin-top: 60px;
+    height: 287px;
+    width: 330px;
+}
+
+/*ajustando tamanhos da imagem da section 5*/
+#mulher-academia {
+    margin-left: 23.32px;
+    margin-top: 60px;
+    height: 324px;
+    width: 329.36px;
+}
