@@ -5,14 +5,11 @@
     --primary-color: #9A9590;
     --second-color: #262524;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: rgb(255, 255, 255);
 }
 
 header {
@@ -46,7 +43,6 @@ altura entre header e o conteudo*/
 
 /*Codigo da section 1*/
 .section1 {
-    background-image: url(/imagens/sombreamento\ section1.png);
     display: flex;
     flex-direction: column;
 }
@@ -63,7 +59,7 @@ altura entre header e o conteudo*/
     display: inline;
     font-family: 'Sporting Grotesque', sans-serif;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 1.75rem;
     text-align: left;
     line-height: 140%;
 }
@@ -86,10 +82,12 @@ altura entre header e o conteudo*/
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-left: 24px;
     opacity: 60%;
     line-height: 180%;
+    width: 288px;
+    height: 66px;
 }
 
 .buttons {
@@ -97,6 +95,8 @@ altura entre header e o conteudo*/
     gap: 22px;
     margin-left: 24px;
     margin-top: 40px;
+    width: 323px;
+    height: 40px;
 }
 
 /*Button padronizado para section 1, 4 e 5 */
@@ -294,7 +294,8 @@ altura entre header e o conteudo*/
 
 /*codigo da section 6 */
 
-.section6 { /* Aqui estou configurando tamanhos de altura e largura maxima de uma section */
+.section6 {
+    /* Aqui estou configurando tamanhos de altura e largura maxima de uma section */
     margin-top: 120px;
     margin-left: 15px;
     width: 343.27px;
@@ -306,7 +307,7 @@ altura entre header e o conteudo*/
     width: 266px;
 }
 
-.texto-section6 h1{
+.texto-section6 h1 {
     color: var(--second-color);
     font-family: 'Sporting Grotesque', sans-serif;
     font-weight: 600;
@@ -356,7 +357,7 @@ altura entre header e o conteudo*/
     padding-left: 35px;
 }
 
-.section6 img{
+.section6 img {
     width: 343.27px;
     height: 281px;
     margin-top: 48px;
@@ -474,7 +475,7 @@ altura entre header e o conteudo*/
     margin-top: 40px;
     width: 327px;
     height: 184px;
-    box-shadow: 0 10px 80px rgba(51, 78, 123, 0.1);
+    box-shadow: 0 10.23px 40.92px rgba(51, 78, 123, 0.1);
 }
 
 .caixa-textoSection8 {
@@ -585,10 +586,125 @@ footer {
     display: flex;
     gap: 1.5rem;
     list-style-type: none;
-} 
+}
 
 .redes-sociais2 ul li {
     width: 1.5rem;
     height: 1.5rem;
     text-decoration: none;
+}
+
+.packagesFooter {
+    margin: 60px 0px 0px 36px;
+}
+
+.pack-card5-1 {
+    width: 310px;
+    height: 172px;
+}
+
+.pack-card5-1 h2 {
+    color: #F0F6FF;
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.topicos1 {
+    width: 59px;
+    height: 140px;
+}
+
+.topicos1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style-type: none;
+}
+
+.topicos1 ul li {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    opacity: 50%;
+    line-height: 32px;
+}
+
+.pack-card5-2 {
+    margin-top: 28px;
+    width: 310px;
+    height: 136px;
+}
+
+.pack-card5-2 h2 {
+    color: #F0F6FF;
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.topicos2 {
+    width: 57px;
+    height: 104px;
+}
+
+.topicos2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style-type: none;
+}
+
+.topicos2 ul li {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    opacity: 50%;
+    line-height: 32px;
+}
+
+.pack-card5-3 {
+    margin-top: 28px;
+    width: 310px;
+    height: 100px;
+}
+
+.pack-card5-3 h2 {
+    color: #F0F6FF;
+    font-family: 'Sporting Grotesque', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.topicos3 {
+    width: 94px;
+    height: 68px;
+}
+
+.topicos3 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style-type: none;
+}
+
+.topicos3 ul li {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    opacity: 50%;
+    line-height: 32px;
+}
+
+@media (min-width: 980px) {
+
 }
